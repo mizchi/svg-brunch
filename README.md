@@ -3,7 +3,7 @@
 HTML support for brunch
 
 ## Usage
-Install the plugin via npm with `npm install --save sass-brunch` or update your `package.json`.
+Install the plugin via npm with `npm install --save html-brunch` or update your `package.json`.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
