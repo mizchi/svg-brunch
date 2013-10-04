@@ -9,5 +9,5 @@ module.exports = class HTMLCompiler
     null
 
   compile: (data, path, callback) ->
-    d = data.replace(/\"/g, '\\\"').replace(/\n/g, '')
-    callback null, "module.exports = function() { return \"#{d}\";};"
+    d = JSON.stringify(data)
+    callback null, "module.exports = function() { return #{d};};"

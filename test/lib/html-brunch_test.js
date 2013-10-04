@@ -12,7 +12,7 @@
       return compiler.compile(content, 'file.html', function(error, data) {
         var expected;
         test.ok(!error);
-        expected = ["module.exports = function() { return ", "\"<!DOCTYPE HTML><html><body class=\\\"body\\\"><h1>Hello</h1></body></html>\";", "};"].join("");
+        expected = ["module.exports = function() { return ", "\"<!DOCTYPE HTML>\\n<html>\\n<body class=\\\"body\\\">\\n<h1>Hello</h1>\\n</body>\\n</html>\";", "};"].join("");
         console.log(data);
         console.log(expected);
         test.equal(data, expected);
