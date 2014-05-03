@@ -1,4 +1,4 @@
-# svg-brunch [![Build Status](https://secure.travis-ci.org/mizchi/svg-brunch.png?brunch=master)](http://travis-ci.org/mizchi/svg-brunch)
+# svg-brunch
 
 SVG support for brunch
 
