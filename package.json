@@ -1,26 +1,26 @@
 {
-  "name": "html-brunch",
+  "name": "svg-brunch",
   "description": "HTML support for brunch",
   "version": "1.6.1",
-  "homepage": "https://github.com/fujimura/html-brunch",
+  "homepage": "https://github.com/mizchi/svg-brunch",
   "author": {
-    "name": "Fujimura Daisuke",
-    "email": "me@fujimuradaisuke.com"
+    "name": "Koutaro Chikuba",
+    "email": "miz404@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/fujimura/html-brunch.git"
+    "url": "git://github.com/mizchi/svg-brunch.git"
   },
   "bugs": {
-    "url": "https://github.com/fujimura/html-brunch/issues"
+    "url": "https://github.com/mizchi/svg-brunch/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/fujimura/html-brunch/blob/master/LICENSE-MIT"
+      "url": "https://github.com/mizchi/svg-brunch/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/html-brunch",
+  "main": "lib/svg-brunch",
   "engines": {
     "node": ">= 0.8.0"
   },
