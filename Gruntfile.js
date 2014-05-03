@@ -7,8 +7,8 @@ module.exports = function(grunt) {
     coffee: {
       compile: {
         files: {
-          'lib/html-brunch.js': 'src/html-brunch.coffee',
-          'test/lib/html-brunch_test.js': 'test/src/html-brunch_test.coffee'
+          'lib/svg-brunch.js': 'src/svg-brunch.coffee',
+          'test/lib/svg-brunch_test.js': 'test/src/svg-brunch_test.coffee'
         }
       }
     },

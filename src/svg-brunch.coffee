@@ -1,9 +1,9 @@
 "use strict"
 
-module.exports = class HTMLCompiler
+module.exports = class SVGCompiler
   brunchPlugin : yes
   type         : 'template'
-  extension    : 'html'
+  extension    : 'svg'
 
   constructor: (@config) ->
     null
